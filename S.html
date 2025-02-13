@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Valentine's Day Bebiya</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #ffebee;
+      color: #4e1500;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 20px 0;
+      animation: glow 2s infinite alternate;
+    }
+    .book {
+      position: relative;
+      width: 90%;
+      max-width: 400px;
+      height: 500px;
+      perspective: 1500px;
+      margin: 20px auto;
+    }
+    .page {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: url('https://www.toptal.com/designers/subtlepatterns/uploads/old_paper.png');
+      background-size: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      transform-style: preserve-3d;
+      transform-origin: left;
+      transition: transform 1s ease-in-out;
+      backface-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .page.active {
+      opacity: 1;
+      pointer-events: auto;
+      z-index: 10;
+    }
+    .page.flip {
+      transform: rotateY(-180deg);
+      z-index: 5;
+    }
+    .cover {
+      background: url('https://www.toptal.com/designers/subtlepatterns/uploads/cream_dust.png');
+      background-size: cover;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: center;
+      color: #a52a2a;
+    }
+    .cover p {
+      font-size: 1rem;
+      font-style: italic;
+      color: #7b1b1b;
+    }
+    @keyframes glow {
+      0% { text-shadow: 0 0 5px #ff4081, 0 0 10px #ff4081; }
+      100% { text-shadow: 0 0 10px #ff4081, 0 0 20px #ff4081; }
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      background: #a52a2a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #7b1b1b;
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy Valentine's Day Bebiya</h1>
+  <div class="book">
+    <!-- Cover Page -->
+    <div class="page active cover">
+      <p>❤️ <b>Valentine's Special</b> ❤️</p>
+      <p>प्रियतम हजुर बिना यो जीवन अधुरो,  
+         हजुरकै प्रेमले बनाउँछ सुन्दर मेरो भोलि।  
+         हजुर मेरो स्नेह, मेरो सारा संसार,  
+         हजुरकै मायामा रहूँ सदा अपार ❤️</p>
+    </div>
+
+    <!-- Pages -->
+    <div class="page"><p>1. Wife Jii😘💋, you are the light of my life. Every moment with you feels like a dream come true.</p></div>
+    
+    <div class="page"><p>2. हजुरको आँखामा प्रेमको उज्यालो,  
+        हजुर बिना जीवन अधुरो अभिशाप जस्तो।  
+        हजुरकै साथमा स्वर्ग झैं यो धर्ती,  
+        हजुर मेरो श्वास, मेरो भाग्यको वरदान जस्तो।</p></div>
+    
+    <div class="page"><p>3. Every day with you feels like Valentine's Day. You make my heart skip a beat.</p></div>
+    
+    <div class="page"><p>4. हजुर बिना समय मौन छ, संसार सुनसान,  
+        हजुरसँग हरेक क्षण प्रेममय बिहान।  
+        हजुरकै अंगालोमा पाउँछु शान्ति,  
+        हजुर नै जीवनको अटल आधार। </p></div>
+    
+    <div class="page"><p>5. Your love is like a beautiful melody that plays in my heart forever.</p></div>
+    
+    <div class="page"><p>6. हजुर बिना यो मन रूखो बगर,  
+        हजुरकै प्रेमले बगाउँछ माया-नदी भर।  
+        हजुर मेरो संगीत, मेरो अमृत श्रोत,  
+        हजुरकै नाम लिई हरपल बाँच्न पाउँ।</p></div>
+    
+    <div class="page"><p>7. Your love is my greatest treasure. I promise to cherish it forever.</p></div>
+    
+    <div class="page"><p>8. हजुरकै माया यो मनको आभूषण,  
+        हजुर बिना जीवनको अर्थ छैन पूर्ण।  
+        हजुर मेरो तारा, हजुर नै जून,  
+        हजुरकै प्रेमले रमाउँछ मेरो जून।</p></div>
+    
+    <div class="page"><p>9. Wife Jii😘💋, you are my heart and soul. I love you beyond words.</p></div>
+    
+    <div class="page"><p>10. हजुर मेरो गगन, म छु धर्ती,  
+         हजुर बिना मन अन्धकार जस्तै।  
+         हजुरको प्रेमले बनेको छु पूर्ण,  
+         हजुर नै हुनुहुन्छ जीवनको मूल।</p></div>
+  </div>
+  
+  <button id="nextButton">Next</button>
+
+  <script>
+    let currentPage = 0;
+    const pages = document.querySelectorAll('.page');
+    const nextButton = document.getElementById('nextButton');
+
+    nextButton.addEventListener('click', () => {
+      if (currentPage < pages.length - 1) {
+        pages[currentPage].classList.add('flip');
+        currentPage++;
+        pages[currentPage].classList.add('active');
+      } else {
+        alert("You've reached the end of the book, my love! ❤️");
+      }
+    });
+  </script>
+</body>
+</html><ALOASK-SEPARATE-EDITORS><ALOASK-SEPARATE-EDITORS>
